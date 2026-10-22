@@ -1,0 +1,13 @@
+{
+  "id": "P019",
+  "buys": false,
+  "purchases_first_month": 0,
+  "reason_code": "habit",
+  "reason": "When I get anxious or lonely late at night, I can already open ChatGPT or Claude for free, so on a $13,000 student budget I can't justify paying for an AI chat app.",
+  "objection": "Free ChatGPT or Claude can already listen to me vent late at night without charging me a monthly subscription.",
+  "would_change_my_mind": "A solid free tier for late-night venting or a student discount around $2 to $3 a month.",
+  "price_too_cheap": 2,
+  "price_cheap": 3,
+  "price_expensive": 6,
+  "price_too_expensive": 10
+}

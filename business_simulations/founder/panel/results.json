@@ -1,0 +1,163 @@
+{
+ "business": "MYTHRI (AI Emotional Support & Mental Health Companion)",
+ "seed": 42,
+ "dealt": 20,
+ "answered": 20,
+ "skipped": [],
+ "buys": 0,
+ "passes": 20,
+ "buy_rate": 0.0,
+ "by_segment": [
+  [
+   "High-stress / remote worker",
+   3,
+   0.0
+  ],
+  [
+   "College student / Gen Z",
+   8,
+   0.0
+  ],
+  [
+   "Early to mid-career professional",
+   9,
+   0.0
+  ]
+ ],
+ "by_behaviour": [
+  [
+   "Privacy skeptic",
+   3,
+   0.0
+  ],
+  [
+   "Late-night venter",
+   4,
+   0.0
+  ],
+  [
+   "Therapy-priced-out",
+   5,
+   0.0
+  ],
+  [
+   "Self-care app switcher",
+   4,
+   0.0
+  ],
+  [
+   "Deal & trial seeker",
+   2,
+   0.0
+  ],
+  [
+   "Reddit / review researcher",
+   2,
+   0.0
+  ]
+ ],
+ "by_income": [
+  [
+   "$88,000 and up",
+   7,
+   0.0
+  ],
+  [
+   "under $21,000",
+   6,
+   0.0
+  ],
+  [
+   "$21,000 to $88,000",
+   7,
+   0.0
+  ]
+ ],
+ "why_not": [
+  [
+   "trust",
+   6,
+   [
+    "I'm not willing to entrust my private mental health struggles to an AI app when I don't know where the data really ends up, and a chatbot can't offer real human care.",
+    "I've already cycled through and abandoned Calm and journaling apps, and I just don't believe an AI chatbot simulating empathy can actually support me when I'm overwhelmed by work deadlines. It feels like a robotic substitute rather than genuine care."
+   ],
+   [
+    "P001",
+    "P005"
+   ]
+  ],
+  [
+   "habit",
+   5,
+   [
+    "I already turn to free ChatGPT on my phone when I get anxious and need to vent late at night. On a student budget, I can't justify paying a monthly subscription for something I already get for free.",
+    "I always lose steam and abandon self-care apps within four days, so putting down payment info for another subscription feels pointless. Without established Reddit threads or reviews proving long-term retention, I know I'd just waste my money."
+   ],
+   [
+    "P009",
+    "P010"
+   ]
+  ],
+  [
+   "price",
+   4,
+   [
+    "I only make about $16,000 a year as a student, so taking on another recurring subscription isn't realistic for my budget. When I'm spiraling late at night I'd love support, but I can't justify paying $10 a month when money is this tight.",
+    "As a college student making $18,000 a year, $9.99 a month is way too steep for an app I might abandon like Calm or Headspace. Even the launch promo feels like another subscription trap when I can just vent to free AI tools."
+   ],
+   [
+    "P002",
+    "P004"
+   ]
+  ],
+  [
+   "quality",
+   3,
+   [
+    "I want real professional therapy, and an AI chatbot feels too synthetic and shallow to actually help when I'm dealing with complex emotions.",
+    "I would sign up for the free trial, but I'd likely cancel before being charged because I expect an AI companion to offer superficial platitudes rather than deep coping support. When I am overwhelmed by work deadlines, generic or hallucinated advice would just frustrate me more."
+   ],
+   [
+    "P003",
+    "P006"
+   ]
+  ],
+  [
+   "need",
+   2,
+   [
+    "I already have ChatGPT and Claude open all day while working, and they listen to me vent for free. Plus, I always end up abandoning wellness app subscriptions after a couple of weeks anyway.",
+    "I can already vent to free ChatGPT or Claude late at night, so I see no reason to pay a recurring subscription. Without established Reddit threads or app store reviews proving it's meaningfully better, I'm definitely not entering my credit card."
+   ],
+   [
+    "P008",
+    "P018"
+   ]
+  ]
+ ],
+ "why_yes": [],
+ "flip": [
+  "Verifiable open-source client code with proven zero-knowledge encryption and independent clinical validation.",
+  "A usable free tier for late-night venting or a student discount around $3 a month.",
+  "A blended option that includes real therapist supervision or verified clinical backing showing outcomes equal to human care.",
+  "A solid free tier with a student plan under $3 a month, or proving it's actually deeper and more interactive than standard chatbots.",
+  "Proof of clinically verified stress reduction or a hybrid model connected to real human therapists.",
+  "Concrete proof or demonstrable examples during onboarding showing nuanced, clinician-backed DBT exercises rather than generic chatbot responses.",
+  "Clinical validation and proof that the DBT tools provide meaningful, non-hallucinatory guidance rather than generic chatbot answers.",
+  "Proof that the DBT exercises actively de-escalate workday panic attacks faster and better than custom ChatGPT prompts.",
+  "A solid free tier for late-night grounding or student pricing around $2-$3 a month with proof that DBT exercises help way more than general chat.",
+  "A completely free, no-credit-card trial for two full weeks so I can prove to myself I actually use it past day four.",
+  "A verified third-party security audit or fully offline, open-source proof that my logs never leave my device.",
+  "Clear clinical backing showing it genuinely helps bridge waitlists until a human therapist is available.",
+  "A hybrid option that connects me to affordable human student counselors alongside the coping tools.",
+  "Independent third-party privacy audits or verifiable open-source encryption proving logs never leave my device or enter model training.",
+  "A functional free tier paired with verifiable open-source proof that my conversations stay strictly on-device.",
+  "A pay-per-use venting pass or emergency late-night access instead of a monthly subscription that expects ongoing daily habit.",
+  "A generous free tier without a subscription commitment and transparent, verifiable zero-knowledge privacy guarantees.",
+  "An active Reddit consensus and verified reviews showing the DBT exercises provide real clinical value far beyond what free Claude or ChatGPT can do.",
+  "A solid free tier for late-night venting or a student discount around $2 to $3 a month.",
+  "A heavily discounted student plan under $3 a month or a functional permanent free tier."
+ ],
+ "purchases_first_month_per_buyer": null,
+ "price_answers": 20
+}

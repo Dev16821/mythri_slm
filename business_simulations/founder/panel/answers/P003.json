@@ -1,0 +1,13 @@
+{
+  "id": "P003",
+  "buys": false,
+  "purchases_first_month": 0,
+  "reason_code": "quality",
+  "reason": "I want real professional therapy, and an AI chatbot feels too synthetic and shallow to actually help when I'm dealing with complex emotions.",
+  "objection": "AI can't replace a real human therapist who actually cares and understands what I'm experiencing.",
+  "would_change_my_mind": "A blended option that includes real therapist supervision or verified clinical backing showing outcomes equal to human care.",
+  "price_too_cheap": 3,
+  "price_cheap": 5,
+  "price_expensive": 15,
+  "price_too_expensive": 25
+}

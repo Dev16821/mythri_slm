@@ -1,0 +1,13 @@
+{
+  "id": "P009",
+  "buys": false,
+  "purchases_first_month": 0,
+  "reason_code": "habit",
+  "reason": "I already turn to free ChatGPT on my phone when I get anxious and need to vent late at night. On a student budget, I can't justify paying a monthly subscription for something I already get for free.",
+  "objection": "Free ChatGPT or Claude can already chat with me for free, so paying $10 a month feels redundant.",
+  "would_change_my_mind": "A solid free tier for late-night grounding or student pricing around $2-$3 a month with proof that DBT exercises help way more than general chat.",
+  "price_too_cheap": 2,
+  "price_cheap": 4,
+  "price_expensive": 8,
+  "price_too_expensive": 15
+}

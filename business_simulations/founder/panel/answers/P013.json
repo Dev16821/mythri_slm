@@ -1,0 +1,13 @@
+{
+  "id": "P013",
+  "buys": false,
+  "purchases_first_month": 0,
+  "reason_code": "trust",
+  "reason": "I desperately want real therapy, but an algorithm simulating empathy just feels hollow and fake. On my $17,000 college budget, I can't justify paying monthly for a bot when what I actually need is a human who cares.",
+  "objection": "AI can't replace a real human therapist who actually cares.",
+  "would_change_my_mind": "A hybrid option that connects me to affordable human student counselors alongside the coping tools.",
+  "price_too_cheap": 2,
+  "price_cheap": 4,
+  "price_expensive": 8,
+  "price_too_expensive": 12
+}

@@ -1,0 +1,13 @@
+{
+  "id": "P020",
+  "buys": false,
+  "purchases_first_month": 0,
+  "reason_code": "price",
+  "reason": "On my college budget I would definitely use the 7-day trial to vent, but I'd cancel right away because paying a recurring monthly fee for a chatbot isn't justifiable.",
+  "objection": "$9.99 a month is way too steep for what might just turn out to be a glorified ChatGPT wrapper.",
+  "would_change_my_mind": "A heavily discounted student plan under $3 a month or a functional permanent free tier.",
+  "price_too_cheap": 2,
+  "price_cheap": 4,
+  "price_expensive": 7,
+  "price_too_expensive": 10
+}

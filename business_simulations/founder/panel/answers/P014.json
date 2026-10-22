@@ -1,0 +1,13 @@
+{
+  "id": "P014",
+  "buys": false,
+  "purchases_first_month": 0,
+  "reason_code": "trust",
+  "reason": "I bottle up my feelings so I don't burden friends, but I can't trust an unfamiliar AI app with my sensitive mental health logs when marketing privacy promises are so easy to make and break.",
+  "objection": "I worry my sensitive mental health logs will be leaked or used to train public models.",
+  "would_change_my_mind": "Independent third-party privacy audits or verifiable open-source encryption proving logs never leave my device or enter model training.",
+  "price_too_cheap": 3,
+  "price_cheap": 5,
+  "price_expensive": 15,
+  "price_too_expensive": 25
+}

@@ -1,0 +1,13 @@
+{
+  "id": "P016",
+  "buys": false,
+  "purchases_first_month": 0,
+  "reason_code": "habit",
+  "reason": "I get hit with late-night anxiety, but I know my pattern—I always abandon self-care apps after four days. Paying a monthly subscription for something I'll stop opening just adds subscription guilt to my stress.",
+  "objection": "I always abandon self-care apps after four days anyway, so paying a recurring fee feels like throwing money away.",
+  "would_change_my_mind": "A pay-per-use venting pass or emergency late-night access instead of a monthly subscription that expects ongoing daily habit.",
+  "price_too_cheap": 3,
+  "price_cheap": 5,
+  "price_expensive": 15,
+  "price_too_expensive": 25
+}

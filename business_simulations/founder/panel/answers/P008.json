@@ -1,0 +1,13 @@
+{
+  "id": "P008",
+  "buys": false,
+  "purchases_first_month": 0,
+  "reason_code": "need",
+  "reason": "I already have ChatGPT and Claude open all day while working, and they listen to me vent for free. Plus, I always end up abandoning wellness app subscriptions after a couple of weeks anyway.",
+  "objection": "Free ChatGPT or Claude can already chat with me for free, so paying a recurring subscription feels redundant.",
+  "would_change_my_mind": "Proof that the DBT exercises actively de-escalate workday panic attacks faster and better than custom ChatGPT prompts.",
+  "price_too_cheap": 3,
+  "price_cheap": 5,
+  "price_expensive": 15,
+  "price_too_expensive": 25
+}

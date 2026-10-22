@@ -1,0 +1,12 @@
+
+# Python bytecode
+__pycache__/
+*.py[cod]
+
+# Keep large model checkpoints local; do not push to GitHub
+/checkpoints/exp_0/best_model.pt
+/checkpoints/exp_0/best_model.safetensors
+slm_core/experiments/checkpoints/
+slm_core/data_pipeline/raw_data/
+*.pt
+*.safetensors

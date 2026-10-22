@@ -1,0 +1,13 @@
+{
+  "id": "P001",
+  "buys": false,
+  "purchases_first_month": 0,
+  "reason_code": "trust",
+  "reason": "I'm not willing to entrust my private mental health struggles to an AI app when I don't know where the data really ends up, and a chatbot can't offer real human care.",
+  "objection": "AI can't replace a real human therapist who actually cares, and I don't fully trust where my personal chat logs are stored.",
+  "would_change_my_mind": "Verifiable open-source client code with proven zero-knowledge encryption and independent clinical validation.",
+  "price_too_cheap": 3,
+  "price_cheap": 5,
+  "price_expensive": 15,
+  "price_too_expensive": 30
+}

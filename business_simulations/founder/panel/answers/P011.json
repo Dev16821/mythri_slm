@@ -1,0 +1,13 @@
+{
+  "id": "P011",
+  "buys": false,
+  "purchases_first_month": 0,
+  "reason_code": "trust",
+  "reason": "Even though $5 or $10 a month is easily in my budget, I'm too paranoid that an unknown app's encryption claims won't hold up and my rawest mental health struggles will leak. When I'm spiraling late at night, I need absolute confidentiality, not marketing assurances.",
+  "objection": "I worry my sensitive mental health logs will be leaked or used to train public models.",
+  "would_change_my_mind": "A verified third-party security audit or fully offline, open-source proof that my logs never leave my device.",
+  "price_too_cheap": 3,
+  "price_cheap": 6,
+  "price_expensive": 15,
+  "price_too_expensive": 30
+}

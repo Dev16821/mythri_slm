@@ -1,0 +1,222 @@
+[
+ {
+  "id": "P001",
+  "name": "Finn",
+  "age": 24,
+  "segment": "High-stress / remote worker",
+  "income": 128000,
+  "behaviour": "Privacy skeptic",
+  "behaviour_how": "Extremely cautious about where their personal vulnerabilities and chat logs are stored.",
+  "objection": "AI can't replace a real human therapist who actually cares",
+  "habit": "you have thought about booking therapy but stopped at the price tag"
+ },
+ {
+  "id": "P002",
+  "name": "Callum",
+  "age": 25,
+  "segment": "College student / Gen Z",
+  "income": 16000,
+  "behaviour": "Late-night venter",
+  "behaviour_how": "Experiences anxiety or loneliness late at night and needs immediate, non-judgmental conversational grounding.",
+  "objection": "$9.99/month is steep for what might just be a glorified chatbot",
+  "habit": "you scroll social media late at night when you can't sleep"
+ },
+ {
+  "id": "P003",
+  "name": "Lina",
+  "age": 29,
+  "segment": "Early to mid-career professional",
+  "income": 77000,
+  "behaviour": "Therapy-priced-out",
+  "behaviour_how": "Wants professional therapy but cannot afford $120-$200/session or is stuck on long clinic waitlists.",
+  "objection": "AI can't replace a real human therapist who actually cares",
+  "habit": "you have thought about booking therapy but stopped at the price tag"
+ },
+ {
+  "id": "P004",
+  "name": "Hana",
+  "age": 28,
+  "segment": "College student / Gen Z",
+  "income": 18000,
+  "behaviour": "Self-care app switcher",
+  "behaviour_how": "Has tried Calm, Headspace, or journaling apps, but finds one-way meditation tracks too passive and uninvolved.",
+  "objection": "$9.99/month is steep for what might just be a glorified chatbot",
+  "habit": "you scroll social media late at night when you can't sleep"
+ },
+ {
+  "id": "P005",
+  "name": "Aisha",
+  "age": 21,
+  "segment": "Early to mid-career professional",
+  "income": 93000,
+  "behaviour": "Self-care app switcher",
+  "behaviour_how": "Has tried Calm, Headspace, or journaling apps, but finds one-way meditation tracks too passive and uninvolved.",
+  "objection": "AI can't replace a real human therapist who actually cares",
+  "habit": "you feel overwhelmed by work deadlines during the day"
+ },
+ {
+  "id": "P006",
+  "name": "Sana",
+  "age": 23,
+  "segment": "Early to mid-career professional",
+  "income": 88000,
+  "behaviour": "Deal & trial seeker",
+  "behaviour_how": "Signs up for 7-day trials, evaluates aggressively, and cancels unless value is immediately obvious.",
+  "objection": "What if it hallucinates, gives superficial advice, or doesn't understand my distress?",
+  "habit": "you feel overwhelmed by work deadlines during the day"
+ },
+ {
+  "id": "P007",
+  "name": "Ezra",
+  "age": 27,
+  "segment": "Early to mid-career professional",
+  "income": 79000,
+  "behaviour": "Therapy-priced-out",
+  "behaviour_how": "Wants professional therapy but cannot afford $120-$200/session or is stuck on long clinic waitlists.",
+  "objection": "What if it hallucinates, gives superficial advice, or doesn't understand my distress?",
+  "habit": "you keep your feelings to yourself because you don't want to burden friends"
+ },
+ {
+  "id": "P008",
+  "name": "Owen",
+  "age": 25,
+  "segment": "High-stress / remote worker",
+  "income": 155000,
+  "behaviour": "Self-care app switcher",
+  "behaviour_how": "Has tried Calm, Headspace, or journaling apps, but finds one-way meditation tracks too passive and uninvolved.",
+  "objection": "Free ChatGPT or Claude can already chat with me for free",
+  "habit": "you feel overwhelmed by work deadlines during the day"
+ },
+ {
+  "id": "P009",
+  "name": "Jordan",
+  "age": 28,
+  "segment": "College student / Gen Z",
+  "income": 21000,
+  "behaviour": "Late-night venter",
+  "behaviour_how": "Experiences anxiety or loneliness late at night and needs immediate, non-judgmental conversational grounding.",
+  "objection": "Free ChatGPT or Claude can already chat with me for free",
+  "habit": "you have thought about booking therapy but stopped at the price tag"
+ },
+ {
+  "id": "P010",
+  "name": "Farah",
+  "age": 33,
+  "segment": "Early to mid-career professional",
+  "income": 103000,
+  "behaviour": "Reddit / review researcher",
+  "behaviour_how": "Checks Reddit threads and app store 1-star reviews before entering credit card information.",
+  "objection": "I always abandon self-care apps after 4 days anyway",
+  "habit": "you scroll social media late at night when you can't sleep"
+ },
+ {
+  "id": "P011",
+  "name": "Rosa",
+  "age": 26,
+  "segment": "High-stress / remote worker",
+  "income": 110000,
+  "behaviour": "Therapy-priced-out",
+  "behaviour_how": "Wants professional therapy but cannot afford $120-$200/session or is stuck on long clinic waitlists.",
+  "objection": "I worry my sensitive mental health logs will be leaked or used to train public models",
+  "habit": "you scroll social media late at night when you can't sleep"
+ },
+ {
+  "id": "P012",
+  "name": "Sara",
+  "age": 26,
+  "segment": "Early to mid-career professional",
+  "income": 83000,
+  "behaviour": "Therapy-priced-out",
+  "behaviour_how": "Wants professional therapy but cannot afford $120-$200/session or is stuck on long clinic waitlists.",
+  "objection": "AI can't replace a real human therapist who actually cares",
+  "habit": "you scroll social media late at night when you can't sleep"
+ },
+ {
+  "id": "P013",
+  "name": "Sienna",
+  "age": 20,
+  "segment": "College student / Gen Z",
+  "income": 17000,
+  "behaviour": "Therapy-priced-out",
+  "behaviour_how": "Wants professional therapy but cannot afford $120-$200/session or is stuck on long clinic waitlists.",
+  "objection": "AI can't replace a real human therapist who actually cares",
+  "habit": "you have thought about booking therapy but stopped at the price tag"
+ },
+ {
+  "id": "P014",
+  "name": "Luca",
+  "age": 21,
+  "segment": "Early to mid-career professional",
+  "income": 78000,
+  "behaviour": "Self-care app switcher",
+  "behaviour_how": "Has tried Calm, Headspace, or journaling apps, but finds one-way meditation tracks too passive and uninvolved.",
+  "objection": "I worry my sensitive mental health logs will be leaked or used to train public models",
+  "habit": "you keep your feelings to yourself because you don't want to burden friends"
+ },
+ {
+  "id": "P015",
+  "name": "Oscar",
+  "age": 25,
+  "segment": "College student / Gen Z",
+  "income": 24000,
+  "behaviour": "Privacy skeptic",
+  "behaviour_how": "Extremely cautious about where their personal vulnerabilities and chat logs are stored.",
+  "objection": "Free ChatGPT or Claude can already chat with me for free",
+  "habit": "you keep your feelings to yourself because you don't want to burden friends"
+ },
+ {
+  "id": "P016",
+  "name": "Rohan",
+  "age": 26,
+  "segment": "Early to mid-career professional",
+  "income": 96000,
+  "behaviour": "Late-night venter",
+  "behaviour_how": "Experiences anxiety or loneliness late at night and needs immediate, non-judgmental conversational grounding.",
+  "objection": "I always abandon self-care apps after 4 days anyway",
+  "habit": "you feel overwhelmed by work deadlines during the day"
+ },
+ {
+  "id": "P017",
+  "name": "Maya",
+  "age": 22,
+  "segment": "College student / Gen Z",
+  "income": 14000,
+  "behaviour": "Privacy skeptic",
+  "behaviour_how": "Extremely cautious about where their personal vulnerabilities and chat logs are stored.",
+  "objection": "I always abandon self-care apps after 4 days anyway",
+  "habit": "you have thought about booking therapy but stopped at the price tag"
+ },
+ {
+  "id": "P018",
+  "name": "Pablo",
+  "age": 32,
+  "segment": "Early to mid-career professional",
+  "income": 72000,
+  "behaviour": "Reddit / review researcher",
+  "behaviour_how": "Checks Reddit threads and app store 1-star reviews before entering credit card information.",
+  "objection": "Free ChatGPT or Claude can already chat with me for free",
+  "habit": "you scroll social media late at night when you can't sleep"
+ },
+ {
+  "id": "P019",
+  "name": "Marco",
+  "age": 22,
+  "segment": "College student / Gen Z",
+  "income": 13000,
+  "behaviour": "Late-night venter",
+  "behaviour_how": "Experiences anxiety or loneliness late at night and needs immediate, non-judgmental conversational grounding.",
+  "objection": "Free ChatGPT or Claude can already chat with me for free",
+  "habit": "you have thought about booking therapy but stopped at the price tag"
+ },
+ {
+  "id": "P020",
+  "name": "Jasper",
+  "age": 22,
+  "segment": "College student / Gen Z",
+  "income": 18000,
+  "behaviour": "Deal & trial seeker",
+  "behaviour_how": "Signs up for 7-day trials, evaluates aggressively, and cancels unless value is immediately obvious.",
+  "objection": "$9.99/month is steep for what might just be a glorified chatbot",
+  "habit": "you keep your feelings to yourself because you don't want to burden friends"
+ }
+]

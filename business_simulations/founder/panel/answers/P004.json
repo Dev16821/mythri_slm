@@ -1,0 +1,13 @@
+{
+  "id": "P004",
+  "buys": false,
+  "purchases_first_month": 0,
+  "reason_code": "price",
+  "reason": "As a college student making $18,000 a year, $9.99 a month is way too steep for an app I might abandon like Calm or Headspace. Even the launch promo feels like another subscription trap when I can just vent to free AI tools.",
+  "objection": "It feels like paying ten bucks a month for a glorified chatbot that I'll stop opening after two weeks.",
+  "would_change_my_mind": "A solid free tier with a student plan under $3 a month, or proving it's actually deeper and more interactive than standard chatbots.",
+  "price_too_cheap": 1.99,
+  "price_cheap": 3.99,
+  "price_expensive": 6.99,
+  "price_too_expensive": 9.99
+}

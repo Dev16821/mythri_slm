@@ -1,0 +1,13 @@
+{
+  "id": "P018",
+  "buys": false,
+  "purchases_first_month": 0,
+  "reason_code": "need",
+  "reason": "I can already vent to free ChatGPT or Claude late at night, so I see no reason to pay a recurring subscription. Without established Reddit threads or app store reviews proving it's meaningfully better, I'm definitely not entering my credit card.",
+  "objection": "Free general AI tools already provide conversational venting without a subscription, and there is no independent user consensus proving this offers anything superior.",
+  "would_change_my_mind": "An active Reddit consensus and verified reviews showing the DBT exercises provide real clinical value far beyond what free Claude or ChatGPT can do.",
+  "price_too_cheap": 2,
+  "price_cheap": 5,
+  "price_expensive": 12,
+  "price_too_expensive": 20
+}

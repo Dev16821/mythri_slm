@@ -1,0 +1,86 @@
+{
+ "n": 20,
+ "seed": 42,
+ "customer": {
+  "business": "MYTHRI (AI Emotional Support & Mental Health Companion)",
+  "target": "Adults 18 to 35 seeking accessible emotional support, coping tools, and a safe space to vent between or instead of therapy",
+  "where": "Mobile app (iOS & Android)",
+  "age": [
+   19,
+   34
+  ],
+  "segments": [
+   {
+    "name": "College student / Gen Z",
+    "share": 0.4,
+    "income": [
+     12000,
+     35000
+    ]
+   },
+   {
+    "name": "Early to mid-career professional",
+    "share": 0.45,
+    "income": [
+     45000,
+     110000
+    ]
+   },
+   {
+    "name": "High-stress / remote worker",
+    "share": 0.15,
+    "income": [
+     95000,
+     160000
+    ]
+   }
+  ],
+  "behaviours": [
+   {
+    "name": "Therapy-priced-out",
+    "share": 0.25,
+    "how": "Wants professional therapy but cannot afford $120-$200/session or is stuck on long clinic waitlists."
+   },
+   {
+    "name": "Late-night venter",
+    "share": 0.2,
+    "how": "Experiences anxiety or loneliness late at night and needs immediate, non-judgmental conversational grounding."
+   },
+   {
+    "name": "Self-care app switcher",
+    "share": 0.18,
+    "how": "Has tried Calm, Headspace, or journaling apps, but finds one-way meditation tracks too passive and uninvolved."
+   },
+   {
+    "name": "Privacy skeptic",
+    "share": 0.15,
+    "how": "Extremely cautious about where their personal vulnerabilities and chat logs are stored."
+   },
+   {
+    "name": "Deal & trial seeker",
+    "share": 0.12,
+    "how": "Signs up for 7-day trials, evaluates aggressively, and cancels unless value is immediately obvious."
+   },
+   {
+    "name": "Reddit / review researcher",
+    "share": 0.1,
+    "how": "Checks Reddit threads and app store 1-star reviews before entering credit card information."
+   }
+  ],
+  "objections": [
+   "AI can't replace a real human therapist who actually cares",
+   "$9.99/month is steep for what might just be a glorified chatbot",
+   "I worry my sensitive mental health logs will be leaked or used to train public models",
+   "I always abandon self-care apps after 4 days anyway",
+   "What if it hallucinates, gives superficial advice, or doesn't understand my distress?",
+   "Free ChatGPT or Claude can already chat with me for free"
+  ],
+  "habits": [
+   "you scroll social media late at night when you can't sleep",
+   "you feel overwhelmed by work deadlines during the day",
+   "you have thought about booking therapy but stopped at the price tag",
+   "you keep your feelings to yourself because you don't want to burden friends"
+  ]
+ },
+ "pitch": "MYTHRI: A private, 24/7 AI emotional support companion app for iOS and Android.\nCombines interactive DBT coping exercises, structured journaling, and empathetic chat designed to help you untangle stress, anxiety, and relationship tension.\nCompletely confidential with on-device encryption; your thoughts are never sold or used for public training.\n$9.99 per month or $69.99 per year. 7-day free trial, cancel anytime.\nOpening offer: 50% off your first 3 months ($4.99/mo) for launch users."
+}

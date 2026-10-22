@@ -1,0 +1,13 @@
+{
+  "id": "P006",
+  "buys": false,
+  "purchases_first_month": 0,
+  "reason_code": "quality",
+  "reason": "I would sign up for the free trial, but I'd likely cancel before being charged because I expect an AI companion to offer superficial platitudes rather than deep coping support. When I am overwhelmed by work deadlines, generic or hallucinated advice would just frustrate me more.",
+  "objection": "What if it hallucinates, gives superficial advice, or doesn't understand my distress?",
+  "would_change_my_mind": "Concrete proof or demonstrable examples during onboarding showing nuanced, clinician-backed DBT exercises rather than generic chatbot responses.",
+  "price_too_cheap": 3,
+  "price_cheap": 5,
+  "price_expensive": 12,
+  "price_too_expensive": 20
+}

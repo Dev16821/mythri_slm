@@ -1,0 +1,13 @@
+{
+  "id": "P012",
+  "buys": false,
+  "purchases_first_month": 0,
+  "reason_code": "trust",
+  "reason": "At the end of the day, an AI chatbot doesn't actually care about me or understand my feelings the way a human therapist would. I can't justify paying monthly for simulated empathy when what I really need is genuine professional support.",
+  "objection": "AI can't replace a real human therapist who actually cares.",
+  "would_change_my_mind": "Clear clinical backing showing it genuinely helps bridge waitlists until a human therapist is available.",
+  "price_too_cheap": 3,
+  "price_cheap": 6,
+  "price_expensive": 15,
+  "price_too_expensive": 30
+}

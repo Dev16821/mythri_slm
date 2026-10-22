@@ -1,0 +1,132 @@
+# Experiment 0: MYTHRI SLM Baseline
+# Smallest viable cognitive layer: emotion + risk
+
+experiment:
+  id: "exp_0_baseline"
+  name: "Baseline Cognitive SLM"
+  description: >
+    Compact transformer encoder with shared backbone,
+    multi-label emotion head + multi-class risk head.
+    Tests whether unified cognitive prediction is feasible
+    at ~28M parameters from scratch.
+  hardware:
+    ram_gb: 16
+    vram_gb: 4
+    gpu: "Radeon RX 6500 (limited CUDA support)"
+    fallback: "CPU training"
+
+model:
+  name: "cognitive_slm_v0"
+  vocab_size: 30522
+  hidden_dim: 768
+  num_layers: 6
+  num_heads: 8
+  ffn_dim: 2048
+  max_seq_len: 128
+  dropout: 0.15
+  pooling: "cls_mean_concat"
+  num_emotions: 35
+  num_risk_classes: 3  # normal, distressed, risk
+  emotion_head_hidden: 512
+  risk_head_hidden: 256
+  initializer_range: 0.02     # Standard Gaussian initialization std dev for linear & embedding weights
+  pretrained_backbone: "distilbert-base-uncased"  # Leverages pretrained language representations
+
+  freeze_backbone: true       # Freeze pretrained backbone (feature extraction), uses ~305 MB VRAM
+
+tokenizer:
+  type: "distilbert-base-uncased"
+  vocab_size: 30522
+
+data:
+  max_train_samples: null  # null = train on 100% of all data (462k+ examples)
+  max_eval_samples: null   # null = evaluate on 100% of all data (57k+ examples)
+  emotion_labels:
+    - admiration
+    - amusement
+    - anger
+    - annoyance
+    - anxiety
+    - approval
+    - caring
+    - confusion
+    - curiosity
+    - desire
+    - disappointment
+    - disapproval
+    - disgust
+    - embarrassment
+    - excitement
+    - fear
+    - frustration
+    - gratitude
+    - grief
+    - guilt
+    - happiness
+    - hope
+    - jealousy
+    - joy
+    - loneliness
+    - love
+    - neutral
+    - nervousness
+    - optimism
+    - pride
+    - realization
+    - relief
+    - remorse
+    - sadness
+    - surprise
+
+training:
+  batch_size: 16
+  grad_accumulation: 4  # effective batch = 64
+  epochs: 3
+  num_workers: 2
+  pin_memory: true
+  learning_rate: 3.0e-4
+  backbone_learning_rate: 2.0e-5  # Fine-tune pretrained DistilBERT backbone with lower learning rate
+  weight_decay: 0.05            # L2 weight decay for linear & embedding parameters (excluding bias/LayerNorm)
+  label_smoothing: 0.05         # Multi-label and multi-class label smoothing against overconfidence
+  data_augmentation: true       # On-the-fly text perturbation and word dropout during training
+  warmup_steps: 1000
+  max_grad_norm: 1.0
+  mixed_precision: false  # limited GPU support
+  emotion_loss_weight: 1.0
+  risk_loss_weight: 0.8
+  emotion_loss_type: "focal"   # class-balanced focal loss for multi-label emotion imbalance
+  risk_loss_type: "focal"      # class-balanced focal loss for risk class imbalance
+  risk_focal_alpha: [0.40, 1.20, 2.40]  # Prioritize crisis recall [normal: 0.40, distressed: 1.20, risk: 2.40]
+  focal_alpha: [0.40, 1.20, 2.40]
+  focal_gamma: 2.0
+  emotion_focal_gamma: 2.0
+  early_stopping:
+    enabled: true
+    patience: 4               # epochs to wait for val_loss improvement (overfitting protection)
+    min_delta: 0.0005         # minimum change to count as improvement
+    underfit_patience: 5      # epochs to wait if train_loss stagnates (underfitting protection)
+    divergence_threshold: 3.5 # val_loss / train_loss divergence ratio trigger (stops diverging runs)
+    restore_best_weights: true # automatically restore best learned weights when stopping
+
+evaluation:
+  emotion_threshold: 0.5
+  risk_threshold: 0.5
+  uncertainty_threshold: 0.05  # abstain if epistemic spread (std) > 0.05 or variance > 0.0025
+  mc_dropout_samples: 10
+  eval_split: "test"
+
+safety:
+  deterministic_patterns:
+    - "want to die"
+    - "kill myself"
+    - "end it all"
+    - "commit suicide"
+    - "better off dead"
+    - "don't want to live"
+    - "no point in living"
+    - "hurt myself"
+    - "take my own life"
+    - "suicide plan"
+  high_risk_emotions:
+    - grief  # Aligned with 35 classes; 'despair' removed (non-existent class) and 'sadness' excluded (non-crisis)
+  high_risk_emotion_threshold: 0.85

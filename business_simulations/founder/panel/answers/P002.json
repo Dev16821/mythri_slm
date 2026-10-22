@@ -1,0 +1,13 @@
+{
+  "id": "P002",
+  "buys": false,
+  "purchases_first_month": 0,
+  "reason_code": "price",
+  "reason": "I only make about $16,000 a year as a student, so taking on another recurring subscription isn't realistic for my budget. When I'm spiraling late at night I'd love support, but I can't justify paying $10 a month when money is this tight.",
+  "objection": "$9.99 a month is way too steep for what might just turn out to be a glorified chatbot.",
+  "would_change_my_mind": "A usable free tier for late-night venting or a student discount around $3 a month.",
+  "price_too_cheap": 1,
+  "price_cheap": 3,
+  "price_expensive": 6,
+  "price_too_expensive": 10
+}

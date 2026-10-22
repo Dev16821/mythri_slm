@@ -1,0 +1,13 @@
+{
+  "id": "P005",
+  "buys": false,
+  "purchases_first_month": 0,
+  "reason_code": "trust",
+  "reason": "I've already cycled through and abandoned Calm and journaling apps, and I just don't believe an AI chatbot simulating empathy can actually support me when I'm overwhelmed by work deadlines. It feels like a robotic substitute rather than genuine care.",
+  "objection": "AI can't replace a real human therapist who actually cares.",
+  "would_change_my_mind": "Proof of clinically verified stress reduction or a hybrid model connected to real human therapists.",
+  "price_too_cheap": 2,
+  "price_cheap": 5,
+  "price_expensive": 15,
+  "price_too_expensive": 25
+}
